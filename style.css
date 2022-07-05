@@ -1,0 +1,17 @@
+/* Target 4th in the list */
+:nth-child(4)
+
+/* Target from 4th to end in the list */
+:nth-child(n+4)
+
+/* Target first 4th */
+:nth-child(-n+4)
+
+/* Target alternative(From even) */
+:nth-child(even)
+
+/* Target alternative(From odd) */
+:nth-child(odd)
+
+/* Target last */
+:last-child
